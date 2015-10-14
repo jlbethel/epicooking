@@ -1,0 +1,14 @@
+name = Recipe
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_ingredients
+features[field_base][] = field_special_equipment
+features[field_instance][] = node-recipe-body
+features[field_instance][] = node-recipe-field_ingredients
+features[field_instance][] = node-recipe-field_special_equipment
+features[node][] = recipe
+project path = sites/all/modules/features
