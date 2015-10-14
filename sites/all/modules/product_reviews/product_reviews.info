@@ -1,0 +1,12 @@
+name = Product Reviews
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = image
+dependencies[] = recipe
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_product_photo
+features[field_instance][] = node-product_reviews-body
+features[field_instance][] = node-product_reviews-field_product_photo
+features[node][] = product_reviews

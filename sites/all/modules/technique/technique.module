@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Technique feature.
+ */
+
+include_once 'technique.features.inc';

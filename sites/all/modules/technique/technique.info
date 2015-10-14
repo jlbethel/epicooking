@@ -1,0 +1,11 @@
+name = Technique
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = recipe
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_t_special_equipment
+features[field_instance][] = node-technique-body
+features[field_instance][] = node-technique-field_t_special_equipment
+features[node][] = technique
