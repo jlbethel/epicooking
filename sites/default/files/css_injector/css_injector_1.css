@@ -1,0 +1,8 @@
+ul li.leaf {
+  list-style: none; 
+  text-align: right;
+}
+
+.block-content ul {
+    padding-left: 0px;
+}

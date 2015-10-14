@@ -1,0 +1,12 @@
+ul li {
+  text-align: left;
+}
+
+.item-list ul {
+  text-align: left;
+}
+
+.block-content ul {
+  padding-left: 150px;
+}
+
