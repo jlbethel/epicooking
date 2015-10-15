@@ -213,14 +213,14 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
       'database' => 'epicooking_database',
       'username' => 'admin',
       'password' => 'password',
-      'host' => 'localhost',
+      'host' => '127.0.0.1',
       'port' => '8889',
       'driver' => 'mysql',
       'prefix' => '',

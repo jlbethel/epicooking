@@ -41,7 +41,7 @@ a img {
 }
 
 .block-content p {
-  color: #803b80;
+  color: #000000;
 }
 
 footer .column .region-footer-second .block-content p {
@@ -60,5 +60,19 @@ footer .column .region-footer-second .block-content p {
 .title-wrapper span {
   font-weight: normal;
   font-style: italic;
+}
+
+#content-wrapper #sidebar-first {
+  margin-right: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.container aside {
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
 }
 
