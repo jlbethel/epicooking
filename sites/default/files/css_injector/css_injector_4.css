@@ -1,0 +1,7 @@
+ul li {
+    text-align: right;
+}
+
+#user-login-form > div > div.item-list > ul {
+    list-style: none;
+}

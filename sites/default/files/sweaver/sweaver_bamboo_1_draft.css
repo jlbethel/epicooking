@@ -62,17 +62,3 @@ footer .column .region-footer-second .block-content p {
   font-style: italic;
 }
 
-#content-wrapper #sidebar-first {
-  margin-right: 0px;
-  padding-right: 0px;
-  margin-left: 0px;
-  padding-left: 0px;
-}
-
-.container aside {
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-}
-

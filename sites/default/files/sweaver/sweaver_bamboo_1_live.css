@@ -1,7 +1,3 @@
-ul li {
-  text-align: left;
-}
-
 .item-list ul {
   text-align: left;
 }
@@ -41,7 +37,7 @@ a img {
 }
 
 .block-content p {
-  color: #803b80;
+  color: #000000;
 }
 
 footer .column .region-footer-second .block-content p {
@@ -61,4 +57,3 @@ footer .column .region-footer-second .block-content p {
   font-weight: normal;
   font-style: italic;
 }
-
