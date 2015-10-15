@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WholeSite feature.
+ */
+
+include_once 'wholesite.features.inc';

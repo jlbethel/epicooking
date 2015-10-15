@@ -1,0 +1,8 @@
+name = Header fonts
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = fontyourface
+dependencies[] = google_fonts_api
+features[features_api][] = api:2
+features[fontyourface][] = Raleway 300 (latin)

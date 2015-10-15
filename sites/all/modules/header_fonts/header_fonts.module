@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Header fonts feature.
+ */
+
+include_once 'header_fonts.features.inc';

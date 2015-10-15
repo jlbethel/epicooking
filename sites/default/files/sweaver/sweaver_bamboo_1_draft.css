@@ -6,7 +6,59 @@ ul li {
   text-align: left;
 }
 
-.block-content ul {
-  padding-left: 150px;
+h1 a {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#site-title-wrapper #site-title a {
+  padding-top: 0px;
+}
+
+#site-title-wrapper #site-title {
+  padding-top: 70px;
+  font-size: 41px;
+  padding-left: 0px;
+  margin-left: 204px;
+  border-top-color: #ffffff;
+  border-right-color: #ffffff;
+  border-bottom-color: #ffffff;
+  border-left-color: #ffffff;
+}
+
+#site-title-wrapper h1 {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+a img {
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+.feed-icon img {
+  background-image: none;
+}
+
+.block-content p {
+  color: #803b80;
+}
+
+footer .column .region-footer-second .block-content p {
+  color: #752675;
+}
+
+.field-item p {
+  color: #000000;
+}
+
+.one-third .region-footer-third .block-content p {
+  color: #ffffff;
+  text-align: right;
+}
+
+.title-wrapper span {
+  font-weight: normal;
+  font-style: italic;
 }
 
