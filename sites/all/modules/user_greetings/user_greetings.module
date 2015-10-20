@@ -1,0 +1,68 @@
+<?php
+
+function user_greetings_menu() {
+  $items = array();
+  $items['hello_admin'] = array(
+    'title' => 'Hello admin!',
+    'page callback' => 'hi_admin',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+  $items['hello_authuser'] = array(
+    'title' => 'Hello user!',
+    'page callback' => 'hi_authuser',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+  $items['goodbye_admin'] = array(
+    'title' => 'Goodbye Admin!',
+    'page callback' => 'bye_admin',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+
+  $items['goodbye_authuser'] = array(
+    'title' => 'Goodbye User!!',
+    'page callback' => 'bye_authuser',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+  return $items;
+}
+
+
+function hi_admin() {
+  return '<p>Welcome to the Admin view!</p>';
+}
+
+function hi_authuser() {
+  return '<p>Nice to see you!</p>';
+}
+
+function bye_admin() {
+  return '<p>Bye bye bye</p>';
+}
+
+function bye_authuser() {
+  return '<p>Come back soon!</p>';
+}
+
+function user_greetings_user_login() {
+  foreach ($GLOBALS['user']->roles as $role) {
+    if ($role === "administrator") {
+      $_GET['destination'] = 'hello_admin';
+    } else if ($role === "authenticated user") {
+      $_GET['destination'] = 'hello_authuser';
+    }
+  }
+}
+
+function user_greetings_user_logout() {
+  foreach ($GLOBALS['user']->roles as $role) {
+    if ($role === "administrator") {
+      $_GET['destination'] = 'goodbye_admin';
+    } else if ($role === "authenticated user") {
+      $_GET['destination'] = 'goodbye_authuser';
+    }
+  }
+}
